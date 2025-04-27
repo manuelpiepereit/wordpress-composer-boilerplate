@@ -1,0 +1,10 @@
+/* TEAM */
+Design: ...
+Code:   ...
+
+
+/* SITE */
+Site Name: project-name
+Site URL:  domain.com
+Relaunch:  {{CURRENT_DATE}}
+Language:  German

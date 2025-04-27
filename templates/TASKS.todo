@@ -1,0 +1,15 @@
+todo:
+	- [ ] ...
+
+release 1.0:
+	- [ ] Favicons available
+	- [ ] humans.txt available
+	- [ ] 404 page useful
+	- [ ] SEO titles and descriptions
+	- [ ] SSL cert
+	- [ ] update version and CHANGELOG
+	- [ ] disable debug
+	- [ ] enable caching
+	- [ ] allow indexing
+	- [ ] enable robots
+	- [ ] Lighthouse / Google Page Speed

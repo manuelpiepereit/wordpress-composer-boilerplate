@@ -1,0 +1,42 @@
+{
+	"name": "namespace/project-name",
+	"version": "0.1.0",
+	"description": "",
+	"homepage": "https://domain.com",
+	"type": "project",
+	"authors": [
+		{
+			"name": "...",
+			"email": "..."
+		}
+	],
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://wpackagist.org"
+		}
+	],
+	"extra": {
+		"installer-paths": {
+			"{{CONTENT_DIR_NAME}}/plugins/{$name}/": [
+				"type:wordpress-plugin"
+			],
+			"{{CONTENT_DIR_NAME}}/themes/{$name}/": [
+				"type:wordpress-theme"
+			]
+		},
+		"wordpress-install-dir": "{{CORE_DIR_NAME}}"
+	},
+	"minimum-stability": "dev",
+	"require": {
+		"johnpbloch/wordpress": "*",
+		"wpackagist-plugin/wp-migrate-db": "*",
+		"wpackagist-theme/twentytwentyfive": "*"
+	},
+	"config": {
+		"allow-plugins": {
+			"johnpbloch/wordpress-core-installer": true,
+			"composer/installers": true
+		}
+	}
+}

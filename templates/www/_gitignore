@@ -1,0 +1,21 @@
+# NODE, GULP, GRUNT, SASS, JS
+node_modules
+.bower.json
+.sass-cache
+*.scssc
+.grunt
+*.log
+*.map
+
+# composers
+vendor
+
+# WordPress
+/wp-config-*.php
+!/wp-config-SAMPLE.php
+/{{CORE_DIR_NAME}}
+/{{UPLOADS_DIR_NAME}}
+/{{CONTENT_DIR_NAME}}/languages
+/{{CONTENT_DIR_NAME}}/upgrade*
+/{{CONTENT_DIR_NAME}}/themes/*
+/{{CONTENT_DIR_NAME}}/plugins/*

@@ -23,12 +23,13 @@ This is a boilerplate and installation script for WordPress with the WP core as 
 ## Instructions
 
 1. Download the `wpinit.sh` file
-2. Execute it in the folder of your choice
-3. Set your environment (see below), default is 'production'
-4. Double check `wp-config.php` and edit your environment configs `wp-config-*.php`
-5. Configure `composer.json` and add more plugins
-6. Run `composer install`
-7. Continue with the usual Wordpress installation in your browser
+2. Execute it in the folder of your choice (`chmod +x wpinit.sh` `./wpinit.sh`)
+3. Or make it globally available (`sudo mv wpinit.sh /usr/local/bin/wpinit`)
+4. Set your environment (see below), default is 'production'
+5. Double check `wp-config.php` and edit your environment configs `wp-config-*.php`
+6. Configure `composer.json` and add more plugins
+7. Run `composer install`
+8. Continue with the usual Wordpress installation in your browser
 
 ## Setting the environment
 
